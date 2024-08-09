@@ -404,6 +404,9 @@ panic = 'unwind'
 {crates}
 
 {patches}
+
+[patch.crates-io]
+compiler_builtins = {{ git = "https://github.com/LucasSte/compiler-builtins", tag = "lucas-v1.42" }}
             "#
         )
     }
